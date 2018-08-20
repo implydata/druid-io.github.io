@@ -381,9 +381,9 @@ copy them:</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>rsync -az druid-0.12.1/ COORDINATION_SERVER:druid-0.12.1/
 </code></pre></div>
 <p>Log on to your coordination server and install Zookeeper:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>curl http://www.gtlib.gatech.edu/pub/apache/zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz -o zookeeper-3.4.10.tar.gz
-tar -xzf zookeeper-3.4.10.tar.gz
-<span class="nb">cd</span> zookeeper-3.4.10
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>curl http://www.gtlib.gatech.edu/pub/apache/zookeeper/zookeeper-3.4.12/zookeeper-3.4.12.tar.gz -o zookeeper-3.4.12.tar.gz
+tar -xzf zookeeper-3.4.12.tar.gz
+<span class="nb">cd</span> zookeeper-3.4.12
 cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 </code></pre></div>
